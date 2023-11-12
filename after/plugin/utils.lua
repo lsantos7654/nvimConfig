@@ -9,7 +9,7 @@ function ToggleTerminal()
             return
         end
     end
-    vim.cmd('wincmd l')
+    -- vim.cmd('wincmd l')
     -- If the terminal is not open, open it
-    vim.cmd('botright 10split | terminal')
+    vim.cmd('botright 15split | terminal')
 end
